@@ -13,5 +13,5 @@ STDIN.getc
 
 println "Inspiration:"
 (1..5).each do |i|
-  print "\t", inspiration.slice(rand(inspiration.size))
+  print "\t", inspiration.slice!(rand(inspiration.size))
 end
