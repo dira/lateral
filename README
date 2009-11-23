@@ -1,0 +1,6 @@
+Helper for lateral thinking.
+
+You have to generate something creative. You formulate possible challenges in challenges.txt, one per line.
+You think of the domain or unrelated things and dump them in inspiration.txt, one per line.
+
+ruby generate.rb will choose a challenge and 5 random items from the inspiration. Now, be a genius!
